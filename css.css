@@ -1,0 +1,172 @@
+.navBar{
+	background-color: #61892f;
+	opacity: 80%;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	height: 50px;
+}
+.navButton{
+	height: 50px
+}
+.navButton:hover{
+	background-color: #86c232;
+	opacity: 100% !important;
+	cursor:pointer;
+}
+.hero{
+	width: 100%;
+	/*position: relative;*/
+	margin-top: -60px;
+
+}
+.heroDiv{
+	margin-top: -60px;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+.heroGradient{
+	height: 1000px;
+	margin-top: -300px;
+	z-index: 5;
+	position: relative;
+	background-image: linear-gradient(transparent, #222629 90%);
+}
+.aboutMe{
+	z-index: 5;
+	position: relative;
+	padding-bottom: 300px;
+	/*background-image: linear-gradient(to bottom, #222629, #181a1c);*/
+	background-color: #222629
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.heroText {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 120px !important;
+  text-shadow: 6px 6px 4px #222629;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:25%;
+  max-height:25%;
+}
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+.textBox{
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-bottom: 150px;
+}
+.line{
+	height: 4px;
+	background-image: linear-gradient(to right, #86c232, transparent, transparent);
+	width: 100%
+	padding-right 200px;
+	border-radius: 25px;
+	margin-top: 0px;
+}
+.company-header-avatar{
+    width: 130px;
+    height: 130px;
+    -webkit-border-radius: 70px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 70px;
+    -moz-background-clip: padding;
+    border-radius: 70px;
+    background-clip: padding-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 70px;
+    box-shadow: 4px 4px 10px black;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(-45deg, #61892f, #86c232);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.buttonText{
+	text-align: center;
+}
+.navLogo {
+	height: 25px; 
+	width: 25px; 
+	margin-top: 5px;
+	margin-bottom: -8px; 
+	margin-left: 20px;
+	opacity: 75%
+}
+.navLogo:hover{
+	opacity: 100% !important;
+}
+.head{
+	font-size: 26px;
+}
+.downloadButton{
+	border-radius: 50px;
+	box-shadow: 6px 6px 4px black;
+	width: 150px;
+	padding: 5px;
+}
+.downloadButton:hover{
+	padding: 7px;
+	margin-left: -2px;
+	box-shadow: 6px 6px 8px black;
+	margin-top: -4px;
+}
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222629; 
+  z-index: 5;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #474b4f; 
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6b6e70; 
+}
+.greenGrad{
+	background-image: linear-gradient(-45deg, #61892f, #86c232);
+}
