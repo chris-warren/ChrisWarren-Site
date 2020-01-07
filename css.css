@@ -130,7 +130,7 @@ p{
 .downloadButton{
 	border-radius: 50px;
 	box-shadow: 6px 6px 4px black;
-	width: 150px;
+	width: 20%;
 	padding: 5px;
 }
 .downloadButton:hover{
@@ -169,4 +169,31 @@ a {
 }
 .greenGrad{
 	background-image: linear-gradient(-45deg, #61892f, #86c232);
+}
+.slantBG{
+	height: 100%;
+	background-image: linear-gradient(150deg, #61892f, #61892f 40%, transparent 40%);
+	/*float: left;*/
+	width: 50%
+}
+.gameShowcase{
+	width: 50%;
+	padding-right:25px; 
+	padding-left:25px;
+	/*float: right;*/
+}
+.gameIMG{
+	/*height: 80%;*/ 
+	width: 80%;
+	margin-top: 5%; 
+	margin-left: 5%;
+}
+.flexBox{
+	display: flex;
+}
+.gameButton{
+	margin-left: 40% !important;
+}
+body{
+	background-color: #86c232;
 }

@@ -6,22 +6,23 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div id="TopID"></div>
 	<!-- 	stickied nav bar	-->
 	<div class="navBar">
 		<div style="float: left; width: 70%">
-			<img src="logo wip.png" class="navLogo">
+			<img src="logo wip.png" class="navLogo" onclick="test('TopID')">
 		</div>
 		<div style="float: left; width: 10%" class="navButton" onclick="test('aboutMeID')">
 			<p class="buttonText">
 				About Me
 			</p>
 		</div>
-		<div style="float: left; width: 10%" class="navButton">
+		<div style="float: left; width: 10%" class="navButton" onclick="test('MusicID')">
 			<p class="buttonText">
 				Music
 			</p>
 		</div>
-		<div style="float: left; width: 10%" class="navButton">
+		<div style="float: left; width: 10%" class="navButton" onclick="test('GameDesignID')">
 			<p class="buttonText">
 				Game Design
 			</p>
@@ -29,10 +30,7 @@
 	</div>
 	<!-- 	stickied hero image with overlayed text	-->
 	<div class="heroDiv">
-		<img src="astronomy-2297212.jpg" class="hero">
-		<p class="heroText">
-			Chris<br>Warren
-		</p>
+		<img src="pixelName.jpg" class="hero">
 	</div>
 	<!-- 	gradient into body background	-->
 	<div class="heroGradient"></div>
@@ -62,6 +60,7 @@
 		<div class="dot"></div>
 		<div class="dot"></div>
 		<div class="dot"></div>
+		<div id="MusicID" style="margin-bottom: 50px;"></div>
 		<div class="textBox">
 			<p class="head">
 				Music
@@ -70,10 +69,13 @@
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
+			<iframe width="80%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/694388743&color=%2386c232&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" style="padding: 25px; margin-right: : 10%; margin-left: 10%"></iframe>
+			<iframe width="80%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/447274977&color=%2386c232&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"style="padding: 25px; margin-right: : 10%; margin-left: 10%"></iframe>
 		</div>
 		<div class="dot"></div>
 		<div class="dot"></div>
 		<div class="dot"></div>
+		<div id="GameDesignID" style="margin-bottom: 50px;"></div>
 		<div class="textBox">
 			<p class="head">
 				Game Design
@@ -82,10 +84,31 @@
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
-		</div>
-		<div class="dot"></div>
-		<div class="dot"></div>
-		<div class="dot"></div>
+			<!-- Game Showcase-->
+			<div style="padding: 50px" class="flexBox">
+				<div class="slantBG">
+					<img src="FireWoodPreview.jpg" class="gameIMG">
+				</div>
+				<div class="gameShowcase">
+					<p class="head" style="margin-top: 0px !important">
+						FireWood
+					</p>
+					<p>
+						Firewood is a physics-based platformer/puzzle game about a child who, while bringing home wood, goofes off with a magical bird in the woods and looses track of time. The bird, feeling guilty that the child will be home late, gives them a magical gift that allows them to push the wood through the air with their mind. 
+					</p>				
+				</div>
+			</div>
+			<a href="FireWood 1.0/FireWood.html" target="_blank">
+				<div class="downloadButton greenGrad gameButton">
+					<p class="buttonText" style="font-size: 18px">
+								Play FireWood
+					</p>
+				</div>
+			</a>
+		
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
 	</div>
 
 
