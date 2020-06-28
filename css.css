@@ -84,11 +84,11 @@ p{
 	margin-top: 0px;
 }
 .company-header-avatar{
-    width: 130px;
-    height: 130px;
-    -webkit-border-radius: 70px;
+    width: 140px;
+    height: 140px;
+    -webkit-border-radius: 100px;
     -webkit-background-clip: padding-box;
-    -moz-border-radius: 70px;
+    -moz-border-radius: 100px;
     -moz-background-clip: padding;
     border-radius: 70px;
     background-clip: padding-box;
@@ -198,17 +198,19 @@ body{
 	background-color: #86c232;
 }
 .social{
-	width: 50%;
-	margin-left: 25%;
+	width: 33%;
+	margin-left: 33%;
 }
 .social:hover{
-	width: 55%;
-	margin-left: 22.5%;
-	margin-top: -5%;
+	width: 35%;
+	margin-left: 32%;
+	margin-top: -2%;
 }
 .iconBox{
-	width: 100% !important;
+	width: 80% !important;
+	padding-left: 10%;
+	padding-right: 10%;
 	/*margin-right: 20%;*/
-	margin-left: 5%;
+	/*margin-left: 5%; */
 
 }
