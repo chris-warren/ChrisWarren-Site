@@ -9,12 +9,17 @@
 	<div id="TopID"></div>
 	<!-- 	stickied nav bar	-->
 	<div class="navBar">
-		<div style="float: left; width: 70%">
+		<div style="float: left; width: 60%">
 			<img src="logo wip.png" class="navLogo" onclick="test('TopID')">
 		</div>
 		<div style="float: left; width: 10%" class="navButton" onclick="test('aboutMeID')">
 			<p class="buttonText">
 				About Me
+			</p>
+		</div>
+		<div style="float: left; width: 10%" class="navButton" onclick="test('ProjectsID')">
+			<p class="buttonText">
+				Projects
 			</p>
 		</div>
 		<div style="float: left; width: 10%" class="navButton" onclick="test('MusicID')">
@@ -96,6 +101,60 @@
 		<div class="dot"></div>
 		<div class="dot"></div>
 		<div class="dot" style="margin-bottom: 50px;"></div>
+		<div id="ProjectsID" style="margin-bottom: 100px;"></div>
+		<div class="textBox">
+			<p class="head">
+				Projects
+			</p>
+			<div class="line"></div>	
+			<div style="padding: 50px" class="flexBox">
+				<div class="slantBG">
+					<img src="ulg.png" class="gameIMG">
+				</div>
+				<div class="gameShowcase">
+					<p class="head" style="margin-top: 0px !important">
+						The Unnamed Language
+					</p>
+					<p>
+						For my compiler class I wrote a compiler for the unnamed languages. This project really helped cement OOP best practices and pattern-based development. This projects heavily relies on the visitor and factory patterns. My compiler defines the grammar of the language, handles type-checking, converts to an intermediate representation and generates .j files. This project was written in java and used the lexer/parser ANTLR for the grammar.
+					</p>				
+				</div>
+			</div>
+			<a href="https://github.com/chris-warren/CSC-435---Compiler" target="_blank">
+				<div class="downloadButton greenGrad gameButton">
+					<p class="buttonText" style="font-size: 18px">
+								See on Github
+					</p>
+				</div>
+			</a>
+			<div style="padding: 50px" class="flexBox">
+				<div class="slantBG" style="padding: 50px">
+					<video width="540" height="400" controls>
+  					<source src="Screen Recording (2021-09-21 4-16-27 PM).mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="gameShowcase">
+					<p class="head" style="margin-top: 0px !important">
+						OpenSynth
+					</p>
+					<p>
+						I made a motion tracking 'e-theremin' as a part of a group project for a music information retrieval class. It is written in python and uses OpenCV to track an object on your webcam in real-time, then converts the positional data of the object into amplitude / frequency, which is then fed into a Pyo synthesizer. (you might want to turn your volume down, the synth is kind of piercing)
+					</p>				
+				</div>
+			</div>
+			<a href="https://github.com/sonjaskagestad/CSC475-Group-Project" target="_blank">
+				<div class="downloadButton greenGrad gameButton">
+					<p class="buttonText" style="font-size: 18px">
+								See on Github
+					</p>
+				</div>
+			</a>
+			
+		</div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot" style="margin-bottom: 50px;"></div>
 		<div id="MusicID" style="margin-bottom: 100px;"></div>
 		<div class="textBox">
 			<p class="head">
@@ -119,8 +178,29 @@
 			</p>
 			<div class="line"></div>	
 			<p>
-				I have always been interested in video games and game design. Over the past few months I have been developing my first game in Unity. It is at a playable stage and I plan to add more levels in the future. I am currently working on a collaboration with a local artist that is in the early stages of development. 
+				Since I was a kid, I have always had a love for video game. Now as an adult, I have a love for making them! I develop games using Unity and for most of my projects I do all the art, music and development.
 			</p>
+			<!-- Game Showcase-->
+			<div style="padding: 50px" class="flexBox">
+				<div class="slantBG">
+					<img src="shinobi_screenshot.jpg" class="gameIMG">
+				</div>
+				<div class="gameShowcase">
+					<p class="head" style="margin-top: 0px !important">
+						Shinobi Run
+					</p>
+					<p>
+						Jump and slide as you see how long you can run. For this project I set myself the goal of creating a simple game and getting it from start to finish as fast as possible. This is my first release on the google play store.
+					</p>				
+				</div>
+			</div>
+			<a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.Shinoby_Run" target="_blank">
+				<div class="downloadButton greenGrad gameButton">
+					<p class="buttonText" style="font-size: 18px">
+								Download Sinobi Run
+					</p>
+				</div>
+			</a>
 			<!-- Game Showcase-->
 			<div style="padding: 50px" class="flexBox">
 				<div class="slantBG">
