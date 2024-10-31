@@ -39,7 +39,8 @@
 	position: relative;
 	padding-bottom: 300px;
 	/*background-image: linear-gradient(to bottom, #222629, #181a1c);*/
-	background-color: #222629
+	background-color: #222629;
+	cursor: url('sword1.png'), auto;
 }
 html,body
 {
@@ -69,6 +70,7 @@ html,body
 p{
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
+	font-size: 18px;
 }
 .textBox{
 	padding-left: 150px;
@@ -84,19 +86,22 @@ p{
 	margin-top: 0px;
 }
 .company-header-avatar{
-    width: 140px;
-    height: 140px;
-    -webkit-border-radius: 100px;
+	min-width: 50px;
+	min-height: 50px;
+	aspect-ratio: 1;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 100%;
     -webkit-background-clip: padding-box;
-    -moz-border-radius: 100px;
+    -moz-border-radius: 100%;
     -moz-background-clip: padding;
-    border-radius: 70px;
+    border-radius: 100%;
     background-clip: padding-box;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
     background-position: center center;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     box-shadow: 4px 4px 10px black;
 }
 .dot{
@@ -125,7 +130,7 @@ p{
 	opacity: 100% !important;
 }
 .head{
-	font-size: 26px;
+	font-size: 45px;
 }
 .downloadButton{
 	border-radius: 50px;
@@ -143,7 +148,7 @@ a {
   color: white;
   text-decoration: none; /* no underline */
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   padding: 10px;
 }
 /* width */
