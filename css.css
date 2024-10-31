@@ -40,7 +40,7 @@
 	padding-bottom: 300px;
 	/*background-image: linear-gradient(to bottom, #222629, #181a1c);*/
 	background-color: #222629;
-	cursor: url('sword1.png'), auto;
+	cursor: url('sword1.png'), pointer;
 }
 html,body
 {
